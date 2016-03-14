@@ -1,0 +1,2 @@
+add_lunch_combo cm_milletlte-eng
+add_lunch_combo cm_milletlte-userdebug
