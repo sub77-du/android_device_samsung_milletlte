@@ -20,12 +20,7 @@ TARGET_OTA_ASSERT_DEVICE := milletlte,milletltexx
 DEVICE_PATH := device/samsung/milletlte
 
 # Kernel
-TARGET_KERNEL_CONFIG := cyanogenmod_millet_defconfig
-TARGET_KERNEL_VARIANT_CONFIG := cyanogenmod_milletlte_defconfig
-
-# Partitions
-BOARD_SYSTEMIMAGE_PARTITION_SIZE := 2097152000
-TARGET_USERIMAGES_USE_F2FS := true
+TARGET_KERNEL_VARIANT_CONFIG := du_milletlte_defconfig
 
 # Properties
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
